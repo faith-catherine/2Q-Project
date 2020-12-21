@@ -1,0 +1,230 @@
+/* header */
+#header {
+    width: 100%;
+    background: url(../images/website%20project%20header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+/* navigation */
+nav ul {list-style-type: none; text-align: center;}
+
+nav li {display: inline;}
+
+nav {
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+
+nav a:link {
+	color: #7851A9;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+}
+
+nav a:visited {
+    color: #AB425C;
+    border: 2px solid #AB425C;
+}
+	
+nav a:hover {
+	color: #D85174;
+	border:  2px solid #7851A9;
+	background-color: #FBD6C6;
+}
+		
+nav a:active {
+	color: #F8E1E7;
+	background-color: #FBD6C6;
+}
+
+		
+.site {
+	font-family: 'Century Gothic';
+	border: 2px solid #7851A9;
+	padding: 5px;
+	background-color: #FBD6C6;
+	text-decoration: none; 
+	margin-left: 20px;
+	display: inline;
+}
+
+hr {
+	border-top: 3px solid #AB425C;
+	width: 60%;
+}
+
+/* body */
+body {
+    background-color: #F8E1E7; 
+    font-family: 'Montserrat';
+	width: 95%;
+	margin: auto;
+}
+
+article {text-align: justify;}
+
+h1 {
+	color: #AB425C;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+	padding: 10px 20px;
+	text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+hr {
+	border-top: 3px solid #AB425C;
+	width: 35%;
+}
+
+.photo {
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+#friends {
+    background: url('../images/sprites.png') no-repeat -930px -509px;
+    width: 300px;
+    height: 200px;
+}
+
+#meditation {
+    background: url('../images/sprites.png') no-repeat -430px -10px;
+    width: 480px;
+    height: 300px;
+}
+
+#open {
+    background: url(../images/sprites.png) no-repeat -930px -10px;
+    width: 300px;
+    height: 246px;
+}
+
+#therapy {
+    background: url('../images/sprites.png') no-repeat -330px -530px;
+    width: 300px;
+    height: 300px;
+}
+
+#better {
+    background: url(../images/sprites.png) no-repeat -930px -276px;
+    width: 300px;
+    height: 213px;
+}
+
+/* footer */
+footer {
+    font-family: 'Century Gothic';
+    background-color: #F8D1E0;
+	color: #AB425C;
+    text-align: center;
+}
+
+#disclaimer, #name {font-weight: bold;}
+
+.fb a, .insta a, .twitter a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fb a:link {
+    background: url('../images/icons.png') no-repeat -122px -65px;
+    width: 35px;
+    height: 35px;
+}
+
+.fb a:hover {
+    background: url('../images/icons.png') no-repeat -122px -10px;
+    width: 35px;
+    height: 35px;
+}
+
+.insta a:link {
+    background: url(../images/icons.png) no-repeat -11px -10px;
+    width: 35px;
+    height: 36px;
+}
+
+.insta a:hover {
+    background: url(../images/icons.png) no-repeat -67px -11px;
+    width: 33px;
+    height: 34px;
+}
+
+.twitter a:link {
+    background: url('../images/icons.png') no-repeat -68px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+.twitter a:hover {
+    background: url(../images/icons.png) no-repeat -12px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+/* footer */
+footer {
+    font-family: 'Century Gothic';
+    background-color: #F8D1E0;
+	color: #AB425C;
+    text-align: center;
+}
+
+#disclaimer, #acct {font-weight: bold;}
+
+.fb a, .insta a, .twitter a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fb a:link {
+    background: url('../images/icons.png') no-repeat -122px -65px;
+    width: 35px;
+    height: 35px;
+}
+
+.fb a:hover {
+    background: url('../images/icons.png') no-repeat -122px -10px;
+    width: 35px;
+    height: 35px;
+}
+
+.insta a:link {
+    background: url(../images/icons.png) no-repeat -11px -10px;
+    width: 35px;
+    height: 36px;
+}
+
+.insta a:hover {
+    background: url(../images/icons.png) no-repeat -67px -11px;
+    width: 33px;
+    height: 34px;
+}
+
+.twitter a:link {
+    background: url('../images/icons.png') no-repeat -68px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+.twitter a:hover {
+    background: url(../images/icons.png) no-repeat -12px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+footer p {text-align: center;}

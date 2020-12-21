@@ -1,0 +1,393 @@
+body {
+	background-color: #F8E1E7;
+	padding: 0px;
+	margin: 0px;
+}
+		
+/* header */
+		
+#header {
+	width: 99%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+}
+		
+/* navigation */
+
+#nav ul {
+	list-style-type: none;
+}
+		
+#nav li {
+	display: inline;
+}
+		
+#nav {
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+		
+#nav a:link {
+	color: #7851A9;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#nav a:visited {
+    color: #AB425C;
+    border: 2px solid #AB425C;
+}
+		
+#nav a:hover {
+	color: #D85174;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+}
+		
+#nav a:active {
+	color: #F8E1E7;
+	background-color: #FBD6C6;
+}
+		
+#site {
+	font-family: 'Century Gothic';
+	border: 2px solid #7851A9;
+	padding: 5px;
+	background-color: #FBD6C6;
+	text-decoration: none; 
+	margin-left: 20px;
+	display: inline;
+}
+		
+/* content */
+
+#content {
+	font-family: 'Montserrat';
+	width: 95%;
+	margin: auto;
+}
+		
+h1 {
+	color: #AB425C;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+		
+hr {
+	border-top: 3px solid #AB425C;
+	width: 60%;
+}
+		
+h3 {
+	color: #AB425C;
+	background-color: #FBD6C6;
+	border: 2px solid #7851A9;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+		
+ul {
+	list-style-type: circle;
+}
+		
+p {
+	text-align: justify;
+	text-decoration: none;
+}
+		
+		
+/*floating*/
+
+#anx_img {
+	border: 25px solid #F8E1E7;
+	float: left;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 150px 0px 150px 0px;
+	width: 40%;
+	font-size: 13px;
+	font-family: 'Montserrat';
+	position: absolute;
+}
+		
+#anxiety {
+	float: right;
+	border: 25px solid #F8E1E7;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+		
+#schiz_image {
+	border: 25px solid #F8E1E7;
+	float: right;
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 40px 0px 40px 0px;
+	width: 40%;
+	font-size: 13px;
+	font-family: 'Montserrat';
+}
+		
+		
+#schizo {
+	float: left;
+	clear: left;
+	border-right: 25px solid #F8E1E7;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+}
+		
+#phobia_img {
+	border: 25px solid #F8E1E7;
+	float: left;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 75px 0px 75px 0px;
+	width: 40%;
+	font-size: 13px;
+	font-family: 'Montserrat';
+}
+		
+#phobia {
+	float: right;
+	border: 25px solid #F8E1E7;
+	margin-right: auto; 
+	margin-left: auto;
+	width: 50%;
+}
+		
+#bipo_img {
+	border: 25px solid #F8E1E7;
+	float: right;
+	clear: right;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 300px 0px 300px 0px;
+	width: 40%;
+	font-size: 13px;
+	font-family: 'Montserrat';
+}
+		
+#bipolar {
+	float: left;
+	border: 25px solid #F8E1E7;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+		
+#ocd_img {
+	border: 25px solid #F8E1E7;
+	float: left;
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	font-size: 13px;
+	font-family: 'Montserrat';
+}
+		
+#ocd {
+	float: right;
+	border: 25px solid #F8E1E7;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*captions*/
+#anx_img img {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#caption_anx {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 500px;
+	overflow: auto;
+}
+
+#schiz_image_img img {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#caption_schiz {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 430px;
+	overflow: auto;
+}
+
+#phobia_img img {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#caption_pho {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 400px;
+	overflow: auto;
+}
+
+	/*phobias*/
+#bipo_img img {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#caption_bd {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 500px;
+	overflow: auto;
+}
+
+	/*bipolar*/
+#bipo_img img {
+	padding: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+#caption_bd {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 500px;
+	overflow: auto;
+}
+	/*ocd*/
+#ocd_img {
+	padding: 100px 0px 200px 0px;
+	text-align: center;
+}
+
+#caption_ocd {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	background-color: white;
+	padding: 25pxpx 0px 25px 0px;
+	text-align: center;
+	width: 400px;
+	overflow: auto;
+}
+
+/*references*/
+
+.indent {
+	text-indent: 50px;
+	margin: 20px;
+}
+
+#ref {
+	font-family: 'Century Gothic';
+	margin: 85px;
+	text-align: justify;
+}
+
+.italic {
+	font-style: italic;
+}
+		
+/* footer */
+		
+#footer p, div {
+	clear: both;
+	text-align: center;
+}	
+		
+#footer {
+	font-family: 'Century Gothic';
+	border: 2px solid #F8D1E0;
+	background-color: #F8D1E0;
+	display: block;
+	width: 100%;
+	color: #AB425C;
+}
+
+#disclaimer, #acct {font-weight: bold;}
+
+
+.fb a, .insta a, .twitter a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.fb a:link {
+    background: url('../images/icons.png') no-repeat -122px -65px;
+    width: 35px;
+    height: 35px;
+}
+
+.fb a:hover {
+    background: url('../images/icons.png') no-repeat -122px -10px;
+    width: 35px;
+    height: 35px;
+}
+
+.insta a:link {
+    background: url(../images/icons.png) no-repeat -11px -10px;
+    width: 35px;
+    height: 36px;
+}
+
+.insta a:hover {
+    background: url(../images/icons.png) no-repeat -67px -11px;
+    width: 33px;
+    height: 34px;
+}
+
+.twitter a:link {
+    background: url('../images/icons.png') no-repeat -68px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+.twitter a:hover {
+    background: url(../images/icons.png) no-repeat -12px -71px;
+    width: 32px;
+    height: 26px;
+}
+
+footer p {text-align: center;}
